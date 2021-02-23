@@ -1,0 +1,28 @@
+
+http://localhost/jwt-php/register.php
+Post Row Json
+{
+	"first_name": "Nikunj",
+	"last_name": "Prajapati",
+	"email": "nikunjprajapati77@gmail.com",
+	"password": "123456"
+}
+Response:
+{
+    "message": "User was successfully registered."
+}
+
+http://localhost/jwt-php/login.php
+Post Row Json
+{
+	"email": "nikunjprajapati77@gmail.com",
+	"password": "123456"
+}
+Response:
+{
+    "message": "Successful login.",
+    "jwt": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJUSEVfSVNTVUVSIiwiYXVkIjoiVEhFX0FVRElFTkNFIiwiaWF0IjoxNjE0MDc1ODU5LCJuYmYiOjE2MTQwNzU4NjksImV4cCI6MTYxNDA3NTkxOSwiZGF0YSI6eyJpZCI6IjEiLCJmaXJzdG5hbWUiOiJOaWt1bmoiLCJsYXN0bmFtZSI6IlByYWphcGF0aSIsImVtYWlsIjoibmlrdW5qcHJhamFwYXRpNzdAZ21haWwuY29tIn19.3FqhuFlHAxOt-llMo3LStFnaI6gAphZRxXMz5SWpYg4",
+    "email": "nikunjprajapati77@gmail.com",
+    "expireAt": 1614075919
+}
+
