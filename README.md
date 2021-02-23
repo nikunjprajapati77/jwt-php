@@ -1,3 +1,3 @@
 # jwt-php
 
-Update JWT Token with PHP
+Updated JWT Token with PHP
